@@ -11,6 +11,8 @@ class Fixnum
 			roman_map["1"] + roman_map["1"] + roman_map["1"]
 		when 5
 			roman_map["5"]
+		when 4
+			roman_map["1"] + roman_map["5"]
 		end
 	end
 end
