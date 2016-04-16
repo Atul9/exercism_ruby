@@ -7,6 +7,8 @@ class Fixnum
 			roman_map["1"]
 		when 2
 			roman_map["1"] + roman_map["1"]
+		when 3
+			roman_map["1"] + roman_map["1"] + roman_map["1"]
 		end
 	end
 end
